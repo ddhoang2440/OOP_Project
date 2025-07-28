@@ -11,6 +11,6 @@ public:
 
     void update(float deltaTime);
     int getLevel() const;
-
+	int resetLevel();
     // TODO: thêm hàm để spawn enemy
 };

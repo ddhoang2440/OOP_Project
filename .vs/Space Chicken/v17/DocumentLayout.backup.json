@@ -1,0 +1,290 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\OOP\\Project\\Space Chicken\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|C:\\OOP\\Project\\Space Chicken\\UIManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|solutionrelative:UIManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|C:\\OOP\\Project\\Space Chicken\\PauseMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|solutionrelative:PauseMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|C:\\OOP\\Project\\Space Chicken\\UIManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|solutionrelative:UIManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|C:\\OOP\\Project\\Space Chicken\\IMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|solutionrelative:IMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|C:\\OOP\\Project\\Space Chicken\\Space Chicken.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|solutionrelative:Space Chicken.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|C:\\OOP\\Project\\Space Chicken\\PauseMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|solutionrelative:PauseMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|C:\\OOP\\Project\\Space Chicken\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|solutionrelative:Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|C:\\OOP\\Project\\Space Chicken\\LevelManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|solutionrelative:LevelManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|C:\\OOP\\Project\\Space Chicken\\CustomCursor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|solutionrelative:CustomCursor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|C:\\OOP\\Project\\Space Chicken\\LevelManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|solutionrelative:LevelManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|C:\\OOP\\Project\\Space Chicken\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|solutionrelative:Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|C:\\OOP\\Project\\Space Chicken\\IMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|solutionrelative:IMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|C:\\OOP\\Project\\Space Chicken\\App.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|solutionrelative:App.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|C:\\OOP\\Project\\Space Chicken\\GameState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|solutionrelative:GameState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|C:\\OOP\\Project\\Space Chicken\\CustomCursor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|solutionrelative:CustomCursor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|C:\\OOP\\Project\\Space Chicken\\App.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1287A27-3ABA-4C3E-BBF7-212970EBB38D}|Space Chicken.vcxproj|solutionrelative:App.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IMenu.h",
+              "DocumentMoniker": "C:\\OOP\\Project\\Space Chicken\\IMenu.h",
+              "RelativeDocumentMoniker": "IMenu.h",
+              "ToolTip": "C:\\OOP\\Project\\Space Chicken\\IMenu.h",
+              "RelativeToolTip": "IMenu.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-28T13:11:42.445Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Space Chicken.cpp",
+              "DocumentMoniker": "C:\\OOP\\Project\\Space Chicken\\Space Chicken.cpp",
+              "RelativeDocumentMoniker": "Space Chicken.cpp",
+              "ToolTip": "C:\\OOP\\Project\\Space Chicken\\Space Chicken.cpp",
+              "RelativeToolTip": "Space Chicken.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-28T13:12:19.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMenu.cpp",
+              "DocumentMoniker": "C:\\OOP\\Project\\Space Chicken\\IMenu.cpp",
+              "RelativeDocumentMoniker": "IMenu.cpp",
+              "ToolTip": "C:\\OOP\\Project\\Space Chicken\\IMenu.cpp",
+              "RelativeToolTip": "IMenu.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-28T13:12:04.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UIManager.h",
+              "DocumentMoniker": "C:\\OOP\\Project\\Space Chicken\\UIManager.h",
+              "RelativeDocumentMoniker": "UIManager.h",
+              "ToolTip": "C:\\OOP\\Project\\Space Chicken\\UIManager.h",
+              "RelativeToolTip": "UIManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-28T13:11:48.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PauseMenu.h",
+              "DocumentMoniker": "C:\\OOP\\Project\\Space Chicken\\PauseMenu.h",
+              "RelativeDocumentMoniker": "PauseMenu.h",
+              "ToolTip": "C:\\OOP\\Project\\Space Chicken\\PauseMenu.h",
+              "RelativeToolTip": "PauseMenu.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-28T13:11:47.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LevelManager.h",
+              "DocumentMoniker": "C:\\OOP\\Project\\Space Chicken\\LevelManager.h",
+              "RelativeDocumentMoniker": "LevelManager.h",
+              "ToolTip": "C:\\OOP\\Project\\Space Chicken\\LevelManager.h",
+              "RelativeToolTip": "LevelManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-28T13:11:43.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PauseMenu.cpp",
+              "DocumentMoniker": "C:\\OOP\\Project\\Space Chicken\\PauseMenu.cpp",
+              "RelativeDocumentMoniker": "PauseMenu.cpp",
+              "ToolTip": "C:\\OOP\\Project\\Space Chicken\\PauseMenu.cpp",
+              "RelativeToolTip": "PauseMenu.cpp",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-28T12:35:55.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomCursor.cpp",
+              "DocumentMoniker": "C:\\OOP\\Project\\Space Chicken\\CustomCursor.cpp",
+              "RelativeDocumentMoniker": "CustomCursor.cpp",
+              "ToolTip": "C:\\OOP\\Project\\Space Chicken\\CustomCursor.cpp",
+              "RelativeToolTip": "CustomCursor.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-28T12:31:53.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LevelManager.cpp",
+              "DocumentMoniker": "C:\\OOP\\Project\\Space Chicken\\LevelManager.cpp",
+              "RelativeDocumentMoniker": "LevelManager.cpp",
+              "ToolTip": "C:\\OOP\\Project\\Space Chicken\\LevelManager.cpp",
+              "RelativeToolTip": "LevelManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-28T12:31:52.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Menu.cpp",
+              "DocumentMoniker": "C:\\OOP\\Project\\Space Chicken\\Menu.cpp",
+              "RelativeDocumentMoniker": "Menu.cpp",
+              "ToolTip": "C:\\OOP\\Project\\Space Chicken\\Menu.cpp",
+              "RelativeToolTip": "Menu.cpp",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-28T12:31:56.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UIManager.cpp",
+              "DocumentMoniker": "C:\\OOP\\Project\\Space Chicken\\UIManager.cpp",
+              "RelativeDocumentMoniker": "UIManager.cpp",
+              "ToolTip": "C:\\OOP\\Project\\Space Chicken\\UIManager.cpp",
+              "RelativeToolTip": "UIManager.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwCoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-28T13:12:33.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Menu.h",
+              "DocumentMoniker": "C:\\OOP\\Project\\Space Chicken\\Menu.h",
+              "RelativeDocumentMoniker": "Menu.h",
+              "ToolTip": "C:\\OOP\\Project\\Space Chicken\\Menu.h",
+              "RelativeToolTip": "Menu.h",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-28T13:11:44.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.cpp",
+              "DocumentMoniker": "C:\\OOP\\Project\\Space Chicken\\App.cpp",
+              "RelativeDocumentMoniker": "App.cpp",
+              "ToolTip": "C:\\OOP\\Project\\Space Chicken\\App.cpp",
+              "RelativeToolTip": "App.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-28T12:31:47.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GameState.h",
+              "DocumentMoniker": "C:\\OOP\\Project\\Space Chicken\\GameState.h",
+              "RelativeDocumentMoniker": "GameState.h",
+              "ToolTip": "C:\\OOP\\Project\\Space Chicken\\GameState.h",
+              "RelativeToolTip": "GameState.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-28T12:31:43.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomCursor.h",
+              "DocumentMoniker": "C:\\OOP\\Project\\Space Chicken\\CustomCursor.h",
+              "RelativeDocumentMoniker": "CustomCursor.h",
+              "ToolTip": "C:\\OOP\\Project\\Space Chicken\\CustomCursor.h",
+              "RelativeToolTip": "CustomCursor.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-28T12:31:42.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.h",
+              "DocumentMoniker": "C:\\OOP\\Project\\Space Chicken\\App.h",
+              "RelativeDocumentMoniker": "App.h",
+              "ToolTip": "C:\\OOP\\Project\\Space Chicken\\App.h",
+              "RelativeToolTip": "App.h",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-28T12:31:38.336Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

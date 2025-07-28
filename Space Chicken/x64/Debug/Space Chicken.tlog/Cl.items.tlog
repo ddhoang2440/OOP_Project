@@ -1,6 +1,8 @@
 C:\OOP\Project\Space Chicken\App.cpp;C:\OOP\Project\Space Chicken\Space Chicken\x64\Debug\App.obj
 C:\OOP\Project\Space Chicken\CustomCursor.cpp;C:\OOP\Project\Space Chicken\Space Chicken\x64\Debug\CustomCursor.obj
+C:\OOP\Project\Space Chicken\IMenu.cpp;C:\OOP\Project\Space Chicken\Space Chicken\x64\Debug\IMenu.obj
 C:\OOP\Project\Space Chicken\LevelManager.cpp;C:\OOP\Project\Space Chicken\Space Chicken\x64\Debug\LevelManager.obj
 C:\OOP\Project\Space Chicken\Menu.cpp;C:\OOP\Project\Space Chicken\Space Chicken\x64\Debug\Menu.obj
+C:\OOP\Project\Space Chicken\PauseMenu.cpp;C:\OOP\Project\Space Chicken\Space Chicken\x64\Debug\PauseMenu.obj
 C:\OOP\Project\Space Chicken\Space Chicken.cpp;C:\OOP\Project\Space Chicken\Space Chicken\x64\Debug\Space Chicken.obj
 C:\OOP\Project\Space Chicken\UIManager.cpp;C:\OOP\Project\Space Chicken\Space Chicken\x64\Debug\UIManager.obj

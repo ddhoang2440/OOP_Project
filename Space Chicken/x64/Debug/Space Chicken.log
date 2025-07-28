@@ -1,13 +1,2 @@
-﻿  App.cpp
-C:\OOP\Project\Space Chicken\App.cpp(6,80): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-C:\OOP\Project\Space Chicken\App.cpp(6,41): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-  CustomCursor.cpp
-C:\OOP\Project\Space Chicken\CustomCursor.cpp(10,22): warning C4566: character represented by universal-character-name '\u26A0' cannot be represented in the current code page (1252)
-C:\OOP\Project\Space Chicken\CustomCursor.cpp(10,22): warning C4566: character represented by universal-character-name '\uFE0F' cannot be represented in the current code page (1252)
-  LevelManager.cpp
-  Menu.cpp
-C:\OOP\Project\Space Chicken\Menu.cpp(205,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  Space Chicken.cpp
-  UIManager.cpp
-  Generating Code...
+﻿  UIManager.cpp
   Space Chicken.vcxproj -> C:\OOP\Project\Space Chicken\x64\Debug\Space Chicken.exe

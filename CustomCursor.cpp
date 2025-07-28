@@ -2,12 +2,12 @@
 #include <iostream>
 
 CustomCursor::CustomCursor() {
-    sprite.setScale(0.1f, 0.1f); // có thể điều chỉnh scale tại đây
+    sprite.setScale(0.1f, 0.1f); 
 }
 
 bool CustomCursor::loadFromFile(const std::string& path) {
     if (!texture.loadFromFile(path)) {
-        std::cerr << "⚠️ Failed to load cursor: " << path << std::endl;
+        std::cerr << "Failed to load cursor: " << path << std::endl;
         return false;
     }
     sprite.setTexture(texture);

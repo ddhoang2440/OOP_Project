@@ -17,3 +17,8 @@ void LevelManager::update(float deltaTime) {
 int LevelManager::getLevel() const {
     return currentLevel;
 }
+
+int LevelManager::resetLevel() {
+	this->currentLevel = 1;
+	return currentLevel;
+}

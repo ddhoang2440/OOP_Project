@@ -131,8 +131,10 @@
   <ItemGroup>
     <ClCompile Include="App.cpp" />
     <ClCompile Include="CustomCursor.cpp" />
+    <ClCompile Include="IMenu.cpp" />
     <ClCompile Include="LevelManager.cpp" />
     <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="PauseMenu.cpp" />
     <ClCompile Include="Space Chicken.cpp" />
     <ClCompile Include="UIManager.cpp" />
   </ItemGroup>
@@ -140,8 +142,10 @@
     <ClInclude Include="App.h" />
     <ClInclude Include="CustomCursor.h" />
     <ClInclude Include="GameState.h" />
+    <ClInclude Include="IMenu.h" />
     <ClInclude Include="LevelManager.h" />
     <ClInclude Include="Menu.h" />
+    <ClInclude Include="PauseMenu.h" />
     <ClInclude Include="UIManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -4,5 +4,8 @@ enum class GameState {
     MENU,
     PLAYING,
     PAUSED,
-    GAMEOVER
+    GAMEOVER,
+    HIGH_SCORES,
+    SETTINGS,
+    HELP
 };

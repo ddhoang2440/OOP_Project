@@ -1,9 +1,10 @@
 ﻿#include "Menu.h"
 
+// Constructor for the Menu class.
+// Initializes menu elements, loads assets, and sets up positions/scales.
 Menu::Menu(float width, float height) {
     font.loadFromFile("assets/fonts/Pixel Sans Serif Condensed.ttf");
 
-    // Load title
     if (!titleTexture.loadFromFile("assets/images/title.png")) {
         std::cerr << "Failed to load title image!" << std::endl;
     }
@@ -15,7 +16,6 @@ Menu::Menu(float width, float height) {
         titleSprite.setScale(0.8f, 0.7f);
     }
 
-    // Load background
     if (!backgroundTexture.loadFromFile("assets/images/background.png")) {
         std::cerr << "Failed to load background image!\n";
     }
@@ -29,9 +29,6 @@ Menu::Menu(float width, float height) {
     background1.setScale(scaleX, scaleY);
     background2.setScale(scaleX, scaleY);
 
-
-
-    // Load spaceship
     if (!spaceshipTexture.loadFromFile("assets/images/spaceship.png")) {
         std::cerr << "Failed to load spaceship image!\n";
     }
@@ -40,12 +37,9 @@ Menu::Menu(float width, float height) {
         spaceshipSprite.setScale(0.4f, 0.4f);
     }
 
-
-
     orbitCenter = sf::Vector2f(width / 2.f, height / 2.f + 100.f);
 
-    // ===== Menu Labels =====
-    std::vector<std::string> labels = { "New Game", "Quit", "High Scores", "Settings", "Help"};
+    std::vector<std::string> labels = { "New Game", "Quit", "High Scores", "Settings", "Help" };
     selectedIndex = 0;
     int centeredCount = 0;
 
@@ -56,7 +50,6 @@ Menu::Menu(float width, float height) {
     float maxTextWidth = 0.f;
     float maxTextHeight = 0.f;
 
-    // Tính kích thước lớn nhất của text căn giữa
     for (const auto& label : labels) {
         if (label == "Quit") continue;
         sf::Text temp;
@@ -78,7 +71,7 @@ Menu::Menu(float width, float height) {
 
         if (labels[i] == "Quit") {
             text.setOrigin(0.f, 0.f);
-            text.setPosition(30.f, height - 70.f - 10.f); // đẩy chữ lên
+            text.setPosition(30.f, height - 70.f - 10.f);
 
             sf::FloatRect bounds = text.getGlobalBounds();
             box.setSize(sf::Vector2f(bounds.width + 30.f, bounds.height + 20.f));
@@ -87,16 +80,15 @@ Menu::Menu(float width, float height) {
         }
         else {
             sf::FloatRect bounds = text.getLocalBounds();
-            // Canh giữa chính xác
             text.setOrigin(bounds.left + bounds.width / 2.f, bounds.top + bounds.height / 2.f);
-            text.setPosition(width / 2.f, height / 2.f + centeredCount * verticalSpacing - 10.f); // đẩy lên
+            text.setPosition(width / 2.f, height / 2.f + centeredCount * verticalSpacing - 10.f);
             centeredCount++;
 
             float boxW = maxTextWidth + paddingX;
             float boxH = maxTextHeight + paddingY;
             box.setSize(sf::Vector2f(boxW, boxH));
             box.setOrigin(boxW / 2.f, boxH / 2.f);
-            box.setPosition(text.getPosition().x, text.getPosition().y + 10.f); // bù lại khung
+            box.setPosition(text.getPosition().x, text.getPosition().y + 10.f);
         }
 
         box.setFillColor(sf::Color(0, 0, 0, 120));
@@ -126,8 +118,18 @@ void Menu::moveDown() {
     }
 }
 
+void Menu::handleEvent(sf::Event& event, sf::RenderWindow& window) {
+    if (event.type == sf::Event::KeyPressed) {
+        if (event.key.code == sf::Keyboard::Up) moveUp();
+        else if (event.key.code == sf::Keyboard::Down) moveDown();
+    }
+    if (event.type == sf::Event::MouseMoved) {
+        sf::Vector2f mousePos = window.mapPixelToCoords(sf::Mouse::getPosition(window));
+        handleMouseMove(mousePos);
+    }
+}
+
 void Menu::update(float dt) {
-    // Scroll background
     background1.move(0, backgroundScrollSpeed * dt);
     background2.move(0, backgroundScrollSpeed * dt);
 
@@ -137,7 +139,6 @@ void Menu::update(float dt) {
     if (background2.getPosition().y >= bgHeight)
         background2.setPosition(0, background1.getPosition().y - bgHeight);
 
-    // Spaceship orbit
     spaceshipTimer -= 0.5f * dt;
     float angle = spaceshipTimer;
     float x = orbitCenter.x + orbitRadius * std::cos(angle);
@@ -145,7 +146,6 @@ void Menu::update(float dt) {
     spaceshipSprite.setPosition(x, y);
     spaceshipSprite.setRotation(angle * 180.f / 3.14159f);
 
-    // Update options and boxes
     for (size_t i = 0; i < options.size(); ++i) {
         float currentScale = options[i].getScale().x;
         float targetScale = (i == selectedIndex) ? 1.2f : 1.0f;
@@ -166,7 +166,6 @@ void Menu::update(float dt) {
 
         options[i].setFillColor(i == selectedIndex ? sf::Color::Yellow : sf::Color::White);
 
-        // Update box to match text scale & position
         if (options[i].getOrigin().x == 0.f) {
             optionBoxes[i].setScale(options[i].getScale());
             optionBoxes[i].setPosition(options[i].getPosition().x - 10.f, options[i].getPosition().y - 10.f + 10.f);
@@ -178,16 +177,26 @@ void Menu::update(float dt) {
     }
 }
 
-void Menu::render(sf::RenderWindow& window) {
-    window.draw(background1);
-    window.draw(background2);
-    window.draw(titleSprite);
-    window.draw(spaceshipSprite);
+void Menu::render(sf::RenderWindow& window) {  
+    window.draw(background1);  
+    window.draw(background2);  
+    window.draw(titleSprite);  
+    window.draw(spaceshipSprite);  
 
-    for (const auto& box : optionBoxes)
-        window.draw(box);
-    for (const auto& option : options)
-        window.draw(option);
+    for (const auto& box : optionBoxes)  
+        window.draw(box);  
+    for (const auto& option : options)  
+        window.draw(option);  
+}
+
+void Menu::show() {
+}
+
+void Menu::hide() {
+}
+
+bool Menu::isVisible() const {
+    return true;
 }
 
 int Menu::getSelectedIndex() const {

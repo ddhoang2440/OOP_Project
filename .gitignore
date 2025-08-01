@@ -1,0 +1,43 @@
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+# Ignore build results
+Debug/
+Release/
+x64/
+x86/
+*.obj
+*.log
+*.pch
+*.idb
+*.ilk
+*.exe
+*.dll
+*.pdb
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+
+# Ignore CMake cache and build
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore others
+*.vsidx
+*.ipch
+*.tlog
+*.lastbuildstate
+*.opensdf
+*.sdf
+*.cache
+*.db

@@ -13,7 +13,7 @@ bool CustomCursor::loadFromFile(const std::string& path) {
     sprite.setTexture(texture);
 
     sprite.setScale(0.08f, 0.08f); // Giảm kích thước còn 8%
-    sprite.setColor(sf::Color(0, 255, 255)); // Xanh cyan
+    sprite.setColor(sf::Color(sf::Color::White)); // Xanh cyan
     sprite.setOrigin(texture.getSize().x / 2.f, texture.getSize().y / 2.f);
     return true;
 }

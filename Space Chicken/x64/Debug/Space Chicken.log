@@ -1,2 +1,33 @@
-﻿  UIManager.cpp
+﻿  App.cpp
+  CustomCursor.cpp
+  IMenu.cpp
+  LevelManager.cpp
+  Menu.cpp
+C:\OOP\Project\Space Chicken\Menu.cpp(214,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  PauseMenu.cpp
+C:\OOP\Project\Space Chicken\PauseMenu.cpp(94,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  SettingMenu.cpp
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(82,66): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(113,87): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(113,87): warning C4244:         with
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(113,87): warning C4244:         [
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(113,87): warning C4244:             T=unsigned int
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(113,87): warning C4244:         ]
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(113,87): warning C4244:         and
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(113,87): warning C4244:         [
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(113,87): warning C4244:             T=float
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(113,87): warning C4244:         ]
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(113,67): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(113,67): warning C4244:         with
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(113,67): warning C4244:         [
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(113,67): warning C4244:             T=unsigned int
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(113,67): warning C4244:         ]
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(113,67): warning C4244:         and
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(113,67): warning C4244:         [
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(113,67): warning C4244:             T=float
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(113,67): warning C4244:         ]
+C:\OOP\Project\Space Chicken\SettingMenu.cpp(134,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Space Chicken.cpp
+  UIManager.cpp
+  Generating Code...
   Space Chicken.vcxproj -> C:\OOP\Project\Space Chicken\x64\Debug\Space Chicken.exe
